@@ -1,0 +1,22 @@
+.header-container {
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+}
+.btn-header {
+   background: transparent;
+   border: none;
+   padding: 0 17px 0;
+}
+.hidden-text {
+   line-height: 0;
+   font-size: 0;
+}
+.icon-header-design {
+   font-size: 40px;
+   color: #d94200;
+}
+.icon-header-design::before {
+   color: black;
+}

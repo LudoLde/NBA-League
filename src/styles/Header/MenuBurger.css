@@ -1,0 +1,60 @@
+.navbar {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   min-height: 75px;
+   padding: 1rem;
+   background-color: black;
+   color: white;
+}
+.navbar__links {
+   display: flex;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+.navbar__link {
+   text-decoration: none;
+   padding: 0 0.3rem;
+   color: inherit;
+}
+.navbar__burger {
+   display: none;
+   background: transparent;
+   border: none;
+   color: inherit;
+   font-weight: bold;
+   font-family: "Bebas Neue", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+   .navbar__links {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      right: -100vw;
+      bottom: 0;
+      height: 100vh;
+      background-color: black;
+   }
+   .show-nav .navbar__links {
+      width: 100vw;
+      right: 0;
+   }
+   .navbar__link {
+      display: block;
+      padding: 1.5rem;
+      font-size: 6vw;
+   }
+   .navbar__burger {
+      display: block;
+      position: relative;
+      font-size: 40px;
+   }
+   .navbar__burger:hover {
+      cursor: pointer;
+   }
+}
