@@ -2,9 +2,11 @@ import DivisionsComponents from "./DivisionsComponent";
 
 const AllTeams = () => {
    return (
-      <div className="all-teams-container">
-         <h2 className="teams-container-title">All Teams</h2>
-         <DivisionsComponents />
+      <div>
+         <div className="all-teams-container">
+            <h1 className="teams-container-title">All Teams</h1>
+            <DivisionsComponents />
+         </div>
       </div>
    );
 };

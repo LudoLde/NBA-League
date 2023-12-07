@@ -1,10 +1,11 @@
-import AllTeams from "../Components/AllTeams/AllTeams";
+import Conferences from "../Components/conferences/Conferences";
 import Header from "../Components/Header/Header";
 
 const Accueil = () => {
    return (
       <main>
-         <Header /> <AllTeams />
+         <Header />
+         <Conferences />
       </main>
    );
 };

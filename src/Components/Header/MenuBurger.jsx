@@ -1,5 +1,6 @@
 import "../../styles/Header/MenuBurger.css";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const MenuBurger = () => {
    const [showLinks, setShowLinks] = useState(false);
@@ -12,24 +13,19 @@ const MenuBurger = () => {
       <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
          <ul className="navbar__links">
             <li className="navbar__item">
-               <a href="#" className="navbar__link">
+               <Link to="/" className="navbar__link">
                   Accueil
-               </a>
+               </Link>
             </li>
             <li className="navbar__item">
-               <a href="#" className="navbar__link">
+               <Link to="/AllTeams" className="navbar__link">
                   Teams
-               </a>
+               </Link>
             </li>
             <li className="navbar__item">
-               <a href="#" className="navbar__link">
+               <Link to="/" className="navbar__link">
                   Accueil
-               </a>
-            </li>
-            <li className="navbar__item">
-               <a href="#" className="navbar__link">
-                  Accueil
-               </a>
+               </Link>
             </li>
          </ul>
          <button className="navbar__burger" onClick={handleShowLinks}>

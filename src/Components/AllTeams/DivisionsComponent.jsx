@@ -25,7 +25,7 @@ const DivisionsComponents = () => {
 
    return (
       <div>
-         <h1>Liste des équipes</h1>
+         <h2>Liste des équipes</h2>
          <DivisionTeamsFilter teams={allTeams} divisionName="Atlantic" />
          <DivisionTeamsFilter teams={allTeams} divisionName="Central" />
          <DivisionTeamsFilter teams={allTeams} divisionName="Southeast" />

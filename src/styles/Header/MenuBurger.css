@@ -43,6 +43,7 @@
    .show-nav .navbar__links {
       width: 100vw;
       right: 0;
+      z-index: 3;
    }
    .navbar__link {
       display: block;
@@ -53,6 +54,7 @@
       display: block;
       position: relative;
       font-size: 40px;
+      z-index: 3;
    }
    .navbar__burger:hover {
       cursor: pointer;

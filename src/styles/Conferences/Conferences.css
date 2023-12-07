@@ -1,0 +1,28 @@
+.conference_classement {
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   column-gap: 22px;
+   width: 95%;
+   border: 1px solid #ccc;
+   padding: 10px;
+   overflow: scroll;
+}
+.conference_header_container {
+}
+.grid-container {
+   position: relative;
+   z-index: 1;
+}
+.header {
+   text-align: center;
+   grid-column: 1;
+   font-weight: bold;
+   border-bottom: 1px solid #ccc;
+}
+
+.equipe {
+   display: grid;
+   align-items: center;
+   padding: 5px;
+   border-bottom: 1px solid #ccc;
+}

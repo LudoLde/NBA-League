@@ -1,8 +1,9 @@
 .division-container {
    padding: 1rem;
 }
+.logo-conference-design {
+   width: 50px;
+}
 .division__title {
    font-size: larger;
-}
-.division__name {
 }
